@@ -8,7 +8,7 @@ First ensure that you have installed the following required packages:
 * Opencv ([instructions](https://github.com/opencv/opencv)). Here is opencv-2.4.9.
 
 ## Datasets
-* In this implementation of the Unet, we use Carvana Image Masking Challenge data.[[download]](https://www.kaggle.com/c/carvana-image-masking-challenge/data) We download train.zip and train_masks.zip.
+* In this implementation of the Unet, we use Carvana Image Masking Challenge data.[[download]](https://www.kaggle.com/c/carvana-image-masking-challenge/data) We download train.zip and train_masks.zip. You can put all the datasets in datasets folder.
 * Run **scripts/transform_images.py** to transform all the image to gray JPEG image.
 * Run **scripts/build_tfrecords.py** to generate training data, data format is tfrecords.
 
