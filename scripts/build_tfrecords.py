@@ -18,6 +18,8 @@ if __name__ == '__main__':
     # TFRecordWriter, dump to tfrecords file
     # TFRecord file name, change save_name for different datasets.
     # Create one proto buffer, then add two Features.
+    if not os.path.exists(os.path.join("../datasets", "tfrecords")):
+        os.makedirs(os.path.join("../datasets", "tfrecords"))
     writer = tf.python_io.TFRecordWriter(os.path.join("../datasets", "tfrecords", 
         "Carvana.tfrecords"))
 
