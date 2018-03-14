@@ -25,4 +25,4 @@ sh test.sh
 The script will load the trained StarGAN model to generate the transformed images. You could change the arguments in test.sh depend on your machine config.
 
 ## Downloading data/trained model
-* Pretrained model: [[download]](https://drive.google.com/open?id=1ngSzJN3oUdn2Xrrvl_vNyPsQThI0hHcY). The model-8500 is better.
+* Pretrained model: [[download]](https://drive.google.com/open?id=14_8ZthgcpIXdEQEzIENueXv7dGVzHvjK). The model-8500 is better.
