@@ -13,13 +13,11 @@ if __name__ == '__main__':
 
     for filename in ["train", "train_masks"]:
         for image_name in image_names:
-            # image_name
-            
             if filename is "train":
                 image_file = os.path.join(data_root, filename, image_name)
                 image = Image.open(image_file).convert("L")
                 if not os.path.exists(os.path.join("../datasets/CarvanaImages", filename)):
-                    os.makedirs(os.path.join("../datasets/CarvanaImages", filename)
+                    os.makedirs(os.path.join("../datasets/CarvanaImages", filename))
                 image.save(os.path.join("../datasets/CarvanaImages", filename, image_name))
 
             if filename is "train_masks":
